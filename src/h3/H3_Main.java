@@ -26,7 +26,7 @@ public class H3_Main {
             }
         System.out.println("Fix: "+fix);
         System.out.println("Wartend: "+wartend);
-        System.out.println("Voll? "+istVoll);
+        System.out.println("Voll: "+istVoll);
 
     }
 }

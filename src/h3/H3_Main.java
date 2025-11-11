@@ -2,14 +2,14 @@ package h3;
 
 public class H3_Main {
     public static void main(String[] args) {
-        int max = 5; // max plätze
-        int fix = 2; // platz erhalten
-        int wartend = 2; // leute auf warteliste
+        int max = 10; // max plätze
+        int fix = 5; // platz erhalten
+        int wartend = 5; // leute auf warteliste
         boolean istVoll = false;
 
         if (max-fix > 0 && wartend > 0) {
 
-            if (wartend < max-fix) {
+            if (wartend <= max-fix) {
                 fix = fix + wartend;
                 wartend = 0;
             }
